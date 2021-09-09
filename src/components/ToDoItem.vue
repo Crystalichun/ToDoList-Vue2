@@ -1,16 +1,18 @@
 <template>
-  <div class="home">
-    <div class="content">
-      Crystal 事务清单
-    </div>
+  <div class="hello">
+    to do list
   </div>
 </template>
 
 <script>
     export default {
-        name: 'Home',
+        name: 'ToDoItem',
+        props: {
+            msg: String
+        }
     }
 </script>
 
 <style scoped lang="scss">
+
 </style>
